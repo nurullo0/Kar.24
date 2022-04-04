@@ -1,0 +1,32 @@
+.slider {
+  display: flex;
+}
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  margin: 0 15px;
+}
+.slider .card .img{
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  min-height: 100px;
+  padding: 5px;
+}
+.slider .card .content p {
+  font-size: 12px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 568px){
+  .slider {
+    flex-direction: column;
+  }
+}
+

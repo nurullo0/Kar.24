@@ -1,0 +1,110 @@
+main {
+    margin-top: 40px;
+}
+
+.container-section {
+    width: 70%;
+    margin: auto;
+}
+
+.h4 {
+    text-align: center;
+    color: blue;
+    font-weight: 700;
+}
+
+.underline-bottom {
+    border-bottom: 1px solid gray;
+}
+
+.img-start {
+    width: 50%;
+    height: 300px;
+}
+
+.main-section__item-title p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-break: 50px;
+}
+
+.img-mobile {
+    width: 50%;
+    height: 250px;
+}
+
+.main-section__item-mobile-title p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-break: 50px;
+}
+
+.main-section__main-title p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-break: 50px;
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+
+}
+
+/*media queries  */
+@media only screen and (max-width: 600px) {
+    .main-section__item-title p {
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-break: 50px;
+    }
+    .main-section__item-mobile-title p {
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-break: 50px;
+    }
+    .img-mobile {
+        width: 100%;
+        height: 100px;
+    }
+    .img-start {
+        width: 100%;
+        height: 100px;
+    }
+    .main-section__item-mobile-title p {
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-break: 50px;
+    }
+    .main-section__main-title p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-break: 50px;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .main-section__item-title p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-break: 50px;
+    }
+    .main-section__item-mobile-title p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-break: 50px;
+    }
+    .main-section__item-mobile-title p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-break: 50px;
+    }
+    .main-section__main-title p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-break: 50px;
+    }
+}

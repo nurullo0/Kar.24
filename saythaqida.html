@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/navFooter.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/sayt.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Sayt - haqida</title>
+    <link rel="icon" type="image/x-icon" href="/images/logokar24.png">
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper nav d-flex align-items-center justify-content-between   ">
+
+            <div class="nav__logo " style="width: 80px;">
+                <a href="../index.html"> <img src="../images/logokar24.png" style="width: 100%;" alt="logo"></a>
+            </div>
+            <div class="nav__links py-3">
+                <ul class="nav__items  justify-content-around m-0  d-xl-flex d-none ">
+                    <li class="nav__item"><a href="./ozbekiston.html">O‘zbekiston</a></li>
+                    <li class="nav__item"><a href="./jahon.html">Jahon</a></li>
+                    <li class="nav__item"><a href="./iqtisodiyot.html">Iqtisodiyot</a></li>
+                    <li class="nav__item"><a href="./jamiyat.html">Jamiyat</a></li>
+                    <li class="nav__item"><a href="./fan-texnika.html">Fan-texnika</a></li>
+                    <li class="nav__item"><a href="./sport.html">Sport</a></li>
+                    <li class="nav__item"><a href="./business class.html">Business class</a></li>
+                    <li class="nav__item"><a href="./audio.html">Audio</a></li>
+                </ul>
+            </div>
+            <div class="nav__options   d-flex  bg-light">
+                <div class="nav__lang me-2">
+                    <div class="btn-group">
+                        <button class="btn  dropdown-toggle" type="button" id="defaultDropdown"
+                            data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            UZB
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li><a class="dropdown-item" href="#">UZB</a></li>
+                            <li><a class="dropdown-item" href="#">KAR</a></li>
+                            <li><a class="dropdown-item" href="#">ENG</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav__search d-flex align-items-center px-2 ">
+                    <i class="fa-solid fa-search search-btn "></i>
+                    <i class="fa-solid fa-close search-close-btn "></i>
+                </div>
+                <div class="nav__toggle-btns d-xl-none d-flex align-items-center px-3 ">
+                    <i class="fa-solid fa-bars menu-btn "></i>
+                </div>
+            </div>
+        </div>
+        <!-- modol search input -->
+        <div class="modol-search ">
+            <form class="d-flex">
+                <input class="form-control form-control-lg" list="datalistOptions" id="exampleDataList"
+                    placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                    <option value="San Francisco">
+                    <option value="New York">
+                    <option value="Seattle">
+                    <option value="Los Angeles">
+                    <option value="Chicago">
+                </datalist>
+                <div class="btn btn-info text-white">izlash</div>
+            </form>
+        </div>
+        <!-- modol search input -->
+        <!-- media navbar modal -->
+        <div class="nav-media">
+            <div class="nav-media__img ">
+                <img src="../images/logokar24.png" alt="nav media img">
+            </div>
+            <ul class="nav-media__items">
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a
+                        href="./ozbekiston.html">O‘zbekiston</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a href="./jahon.html">Jahon</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a
+                        href="./iqtisodiyot.html">Iqtisodiyot</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a href="./jamiyat.html">Jamiyat</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a
+                        href="./fan-texnika.html">Fan-texnika</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a href="./sport.html">sport</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a href="./business class.html">Business
+                        class</a></li>
+                <li class="nav-media__item"><i class="far fa-check-circle"></i><a href="./audio.html">Audio</a></li>
+            </ul>
+            <div class="nav-media__close-btn">
+                <i class="far fa-times-circle nav-media__close-btn"></i>
+            </div>
+        </div>
+        <!-- media navbar modal -->
+    </nav>
+    </header>
+    <!-- header end -->
+    </nav>
+    <!-- end nav -->
+
+    <section class="section" id="section">
+        <main class="main">
+            <div class="container-section">
+                <div class="saythaqida">
+                    <h4 class="h4">Sayt haqida</h4><br>
+                </div>
+                <div class="underline-bottom"></div><br>
+                <div class="main-section__items">
+                    <div class="main-section__item-image">
+                        <img class="img-start" src="/images/posttt.jpg" alt="">
+                    </div><br>
+                    <div class="main-section__item-title">
+                        <p>
+                            «KUN.UZ» - Ўзбекистондаги энг фаол онлайн нашрлардан бири. Сайт ўз олдига Ўзбекистон ва
+                            жаҳонда рўй бераётган энг муҳим воқеа-ҳодисалар ҳақида тезкор, аниқ ва холис ахборот беришни
+                            мақсад қилиб қўйган.
+                        </p>
+                        <p>
+                            Google Analytics маълумотларига кўра, сайтга ҳар куни 350 минг киши ташриф буюради.
+                        </p>
+                        <p>
+                            Сайтдан фойдаланиш мутлақо бепул бўлиб, фақатгина интернет траффик сарфланади. Сайтнинг
+                            енгил ва тез ишлайдиган мобил версияси - m.kun.uz
+                        </p>
+                    </div>
+                    <div class="main-section__item-mobile">
+                        <div class="main-section__item-mobile-image">
+                            <img class="img-mobile" src="/images/Без названия.png" alt="">
+                        </div><br>
+                        <div class="main-section__item-mobile-title">
+                            <p>
+                                Facebook, Twitter, Instagram, Odnoklassniki ижтимоий тармоқларида саҳифалар, Telegram
+                                мессенжерида эса @KunUzOfficial номли канал фаолият юритади.
+                                Android ва iOS қурилмалари учун мўлжалланган мобил дастурлари ҳам мавжуд. Уларни Google
+                                Play ва App Store’дан юклаб олиш мумкин.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-section__main-title">
+                        <p>
+                        <p>
+                            Лойиҳа 2012 йилнинг январида фаолиятини бошлаган. ОАВ сифатида 0987 рақами билан давлат
+                            рўйхатидан ўтган. Лойиҳа муассиси «WEB EXPERT» МЧЖ ҳисобланади.
+                        </p>
+                        <p>
+                            Сайт Ўзбекистон Республикаси ҳудудида фаолият олиб борувчи давлат ва жамоат ташкилотлари
+                            билан қонунда белгиланган тартибда ҳамкорлик ўрнатган ҳолда иш олиб боради.
+                        </p>
+                        <p>
+                            «KUN.UZ» сайти материалларидан фойдаланиш шартлари
+                        </p>
+
+                        <p>
+                            «KUN.UZ» сайти таҳририяти мавжуд қонунчиликка кўра сайтда нашр этилган, қоидалар асосида
+                            кўчириб босилган маълумотлар асослилиги учун (манбаси кўрсатиб ёзилганлиги эвазига)
+                            жавобгарликни ўз зиммасига олмайди.
+                        </p>
+                        <p>
+                            Сайтда нашр қилинган мақола юзасидан, унинг муаллифи ва сайт таҳририятининг фикри бир хил
+                            бўлмаслиги мумкин.
+                        </p>
+                        <p>
+                            Шунингдек, сайт таҳририяти ўқувчиларининг юборган хатларининг ҳар бирига алоҳида жавоб ёзиш
+                            мажбуриятини олмайди.
+                        </p>
+                        <p>
+                            Сайт материалларидан бошқа сайтлар ёки ОАВ фойдаланиши шартлари:
+                        </p>
+                        <p>
+                            Сайт Ўзбекистон Республикаси ҳудудида, минтақа ва чет элларда фаолият юритаётган интернет
+                            сайтлари, нашрлар билан ўзаро маълумот, мақолалар алмашишни йўлга қўяди.
+                        </p>
+                        <p>
+                            Сайтдаги маълумотлардан фақат таҳририятдан ёзма равишда рухсат олингандагина фойдаланиш
+                            талаб этилади.
+                        </p>
+                        <p>
+                            Материаллардан фойдаланишда, сайт номини (муаллифини) берилаётган материалнинг биринчи ёки
+                            учинчи қаторигача бўлган ҳудудда тақдим этиш сўралади.
+                        </p>
+                        <p>
+                            Масалан, «Бу ҳақда KUN.UZ сайти хабар берди».
+                        </p>
+                        <p>
+                            Бу ўринда нашр номи — «KUN.UZ» сўзига ҳавола қўйилиб, бу ҳавола http://kun.uz/ саҳифасига
+                            йўналтирилган бўлиши, қолаверса, «хабар беради» сўз бирикмасига ҳавола қўйилиб, бу ҳавола
+                            «KUN.UZ» сайтидан олинган хабарга йўналтирилган бўлиши керак.
+                        </p>
+                        <p>
+                            Бошқа нашрлар билан ҳамкорликда ишлашдан доим мамнун бўламиз.
+                        </p>
+                        <p>
+                            Мурожаат учун:
+                        </p>
+                        <p>
+                            тел: +998 55 500 11 99 (Қўнғироқлар ҳафтанинг душанбадан жума кунига қадар соат 10:00 дан
+                            17:00 гача қабул қилинади)
+                            почта: info@kun.uz
+                        </p>
+
+                        <p>
+                            Реклама бўлими:
+                            тел: +998 78 113 10 10 (Қўнғироқлар соат 09:00 дан 18:00 гача қабул қилинади)
+                            почта: reklama@kun.uz
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div>
+        </main>
+    </section>
+
+    <!-- footer -->
+    </div>
+    <footer>
+        <div class="footer-nav container mt-3">
+            <ul class="d-flex m-0 col-10 p-0  flex-wrap">
+                <li>
+                    <a class="underline-hover" href="./ozbekiston.html">O‘zbekiston</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./jahon.html">Jahon</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./iqtisodiyot.html">Iqtisodiyot</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./jamiyat.html">Jamiyat</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./fan-texnika.html">Fan-texnika</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./sport.html">Sport</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./business class.html">Business class</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="./audio.html">Audio</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="/saythaqida.html">Sayt haqida</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="#">Aloqa</a>
+                </li>
+                <li>
+                    <a class="underline-hover" href="#">Kar24 jamosi</a>
+                </li>
+            </ul>
+            <div class="footer-nav__18-pluse "><img src="./images/18+.webp" alt=""></div>
+        </div>
+        <div class="footer-body d-flex container justify-content-between align-items-center py-2 flex-wrap-reverse">
+            <div class="footer-body__text col-9">
+                <p>“Kar24” saytida eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish va boshqa shakllarda
+                    foydalanish
+                    faqat tahririyat yozma roziligi bilan amalga oshirilishi mumkin. <br>
+                    Guvohnoma: №0987. Berilgan sanasi: 22.06.2015-yil. Muassis: “WEB EXPERT” MCHJ. Tahririyat manzili:
+                    100043,
+                    Toshkent shahri, K. Yormatov koʻchasi, 12-uy. Elektron manzil: info@kun.uz. <br>
+                    Saytda eʼlon qilinayotgan mualliflik maqolalarida keltirilgan fikrlar muallifga tegishli va ular
+                    Kun.uz
+                    tahririyati nuqtai nazarini ifoda etmasligi mumkin. <br>
+                    Ⓣ - maqola va materiallarda qo‘yilgan mazkur belgi ularning tijorat va reklama huquqlari asosida
+                    eʼlon
+                    qilinganligini bildiradi.</p>
+            </div>
+            <div class="footer-body__messengers col-2">
+                <a href="https://www.instagram.com/Kar24_uz"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://m.facebook.com/kar24.uz"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://t.me/kar24uz"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.youtube.com/channel/UCBaVSOa4oy7o3J3PNzXHTqg"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </footer>
+    </div>
+    <!-- JAVACSRIPT LINKS -->
+    <script src="./javascripts/main.js"></script>
+    <script src="./javascripts/navfooter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000, //2000ms = 2s;
+            autoplayHoverPause: true,
+        });
+    </script>
+</body>
+
+</html>
