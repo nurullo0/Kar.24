@@ -1,10 +1,5 @@
-* {
-    box-sizing: border-box;
 
-}
-body {
-    box-sizing:border-box;
-}
+
 
 .wrapper {
     margin-top: 20px;
@@ -165,39 +160,13 @@ a {
 
 /* CSS MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
+    .single-layout__left, .single-layout__right, .button-hover__more-news  {
+        display:none;
     }
-    .single-layout__left, .single-layout__right {
+    .main-titles__header {
         display: none;
     }
-
-    .col-6, .single-layout__center {
-        width: 100%;
-    }
-
-    .button-hover__more-news {
-        display: none;
-    }
-        
-}
-
-@media only screen and (max-width: 992px) {
-    body {
-        overflow-x: hidden;
-    }
-    .single-layout__left, .single-layout__right {
-        display: none;
-    }
-
-    .col-6, .single-layout__center {
-        width: 100%;
-    }
-
-    .button-hover__more-news {
-        display: none;
-    }
-    h1 {
-        font-size: 2rem;
+    .nav-wrapper {
+      
     }
 }
